@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ route('home') }}">
-                    {{ config('app.name', 'Toko Aqua') }}
+				<img src="{{asset('img/Aqua_(2019).png')}}" class="nav-link" height="70" alt="" length="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
